@@ -1,0 +1,688 @@
+@media (max-width: 760px) {
+  .header {
+    padding: 0 6%;
+    height: 76px;
+  }
+  .nav {
+    display: none;
+    top: 76px;
+    padding: 25px 6%;
+    gap: 23px;
+    box-shadow: 0 20px 30px #0003;
+  }
+  .nav a {
+    font-size: 15px;
+    min-height: 36px;
+  }
+  .nav-cta {
+    padding: 12px 18px;
+  }
+  .hero {
+    height: calc(100svh - 0px);
+    min-height: 730px;
+    max-height: 1000px;
+  }
+  .hero-content {
+    padding: 144px 6% 200px;
+  }
+  .hero h1 {
+    font-size: 80px;
+  }
+  .hero-shade {
+    background:
+      linear-gradient(
+        0deg,
+        #080b0ef5,
+        transparent 35%,
+        #0a0c0e35 65%,
+        #0a0c0e77
+      ),
+      linear-gradient(90deg, #080b0d88, transparent);
+  }
+  .hero-image {
+    object-position: 59% 50%;
+  }
+  .hero-slide-0 .hero-image {
+    height: 62%;
+    top: auto;
+    bottom: 0;
+    object-position: center;
+    object-fit: cover;
+    max-width: none;
+    width: 160%;
+    left: -30%;
+    opacity: 1;
+  }
+  .hero-slide-0 {
+    background: #212425;
+  }
+  .hero-slide-0 .hero-shade {
+    background:
+      linear-gradient(
+        0deg,
+        #101213 0%,
+        transparent 20%,
+        transparent 43%,
+        #212425 68%
+      ),
+      linear-gradient(90deg, #10121330, transparent);
+  }
+  .hero-description {
+    font-size: 15px;
+  }
+  .hero-bottom {
+    left: 6%;
+    right: 6%;
+    bottom: 25px;
+    align-items: end;
+  }
+  .hero-caption {
+    display: none;
+  }
+  .hero-bottom .slide-controls {
+    margin-left: auto;
+  }
+  .scroll-hint {
+    max-width: 140px;
+    font-size: 9px;
+  }
+  .slide-controls button {
+    height: 40px;
+    width: 28px;
+  }
+  .hero-content .eyebrow {
+    font-size: 10px;
+  }
+  .hero .button {
+    margin-top: 3px;
+  }
+  .heritage-strip {
+    padding: 25px 6%;
+  }
+  .heritage-strip > span {
+    font-size: 9px;
+    letter-spacing: 0.07em;
+  }
+  .heritage-strip p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .mobile-break {
+    display: block;
+  }
+  .collection-toolbar {
+    align-items: start;
+    gap: 25px;
+    flex-direction: column;
+  }
+  .filter-tabs {
+    gap: 2px;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .filter-tabs button {
+    padding: 10px 13px;
+    font-size: 12px;
+  }
+  .collection-toolbar > .text-link {
+    font-size: 12px;
+    align-self: end;
+  }
+  .model-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .model-card {
+    padding: 20px 25px 25px;
+  }
+  .model-card h3 {
+    font-size: 30px;
+  }
+  .model-tagline {
+    font-size: 14px;
+  }
+  .model-top {
+    margin-bottom: 0;
+  }
+  .model-image-link {
+    margin: -5px -30px -10px;
+  }
+  .model-specs {
+    margin: 10px 0 25px;
+  }
+  .model-specs strong {
+    font-size: 27px;
+  }
+  .model-specs small {
+    font-size: 12px;
+  }
+  .model-specs span {
+    font-size: 12px;
+  }
+  .model-category {
+    font-size: 11px;
+  }
+  .model-card-bottom {
+    flex-direction: row;
+    align-items: center;
+  }
+  .model-card-bottom p {
+    font-size: 11px;
+  }
+  .model-card-bottom strong {
+    font-size: 17px;
+  }
+  .model-card-bottom .text-link {
+    font-size: 14px;
+  }
+  .section-heading h2 {
+    font-size: 43px;
+  }
+  .section-heading > .eyebrow,
+  .section-heading .eyebrow {
+    font-size: 10px;
+  }
+  .section-heading > p {
+    font-size: 15px;
+  }
+  .story-image {
+    height: 310px;
+  }
+  .story-image img {
+    object-position: 52%;
+  }
+  .story-image > span {
+    left: 6%;
+    font-size: 10px;
+    bottom: 25px;
+  }
+  .story-copy {
+    padding: 60px 6%;
+  }
+  .story-copy > div {
+    display: block;
+  }
+  .story-copy .eyebrow {
+    font-size: 9px;
+    margin-bottom: 25px;
+  }
+  .story-copy h2 {
+    font-size: 40px;
+    margin-bottom: 28px;
+  }
+  .story-copy p:not(.eyebrow) {
+    font-size: 15px;
+    margin-top: 17px;
+  }
+  .story-copy .text-link {
+    margin-top: 28px;
+  }
+  .personal-section {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 6% 70px;
+    align-items: start;
+    gap: 85px;
+  }
+  .personal-copy h2 {
+    font-size: 44px;
+  }
+  .personal-copy .eyebrow {
+    font-size: 10px;
+  }
+  .personal-car {
+    width: 100%;
+  }
+  .personal-car img {
+    width: 110%;
+    margin-left: -5%;
+  }
+  .personal-car .outline-number {
+    font-size: 68vw;
+    top: -20%;
+  }
+  .sample-swatches {
+    margin-top: -4px;
+  }
+  .footer-main {
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 30px;
+  }
+  .footer-main p {
+    font-size: 14px;
+  }
+  .footer-main .text-link {
+    font-size: 13px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer-bottom p,
+  .footer-bottom span {
+    font-size: 11px;
+  }
+  footer {
+    padding: 35px 6%;
+  }
+  .detail-intro {
+    padding-top: 30px;
+  }
+  .detail-title {
+    margin-top: 45px;
+  }
+  .detail-title h1 {
+    font-size: 43px;
+  }
+  .detail-title > span {
+    display: none;
+  }
+  .detail-title p:last-child {
+    font-size: 16px;
+  }
+  .detail-title .eyebrow {
+    font-size: 10px;
+  }
+  .detail-car {
+    margin: 25px -6vw 0;
+  }
+  .detail-car > span {
+    font-size: 50vw;
+  }
+  .detail-specs {
+    padding: 25px 0;
+  }
+  .detail-specs strong {
+    font-size: 31px;
+  }
+  .detail-specs small {
+    display: block;
+    margin: 4px 0 0;
+    font-size: 11px;
+  }
+  .detail-specs p {
+    font-size: 10px;
+  }
+  .detail-description {
+    display: block;
+    padding-top: 45px;
+  }
+  .detail-description h2 {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+  .detail-description p {
+    font-size: 16px;
+  }
+  .detail-description dl > div {
+    font-size: 13px;
+  }
+  .detail-description .button-row {
+    flex-direction: column;
+  }
+  .compare-page,
+  .garage-page {
+    padding-top: 50px;
+  }
+  .page-heading {
+    margin-bottom: 40px;
+  }
+  .page-heading h1 {
+    font-size: 43px;
+  }
+  .page-heading .eyebrow {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+  .compare-controls > .text-link {
+    display: none;
+  }
+  .toggle-label {
+    font-size: 13px;
+  }
+  .comparison-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .comparison-empty {
+    display: none;
+  }
+  .compare-model {
+    margin: 0;
+    padding: 13px 12px 20px;
+  }
+  .compare-model select {
+    font-size: 16px;
+    letter-spacing: -0.035em;
+    padding-right: 15px;
+  }
+  .compare-model img {
+    width: 125%;
+    max-width: none;
+    margin-left: -12.5%;
+    margin-top: 5px;
+  }
+  .compare-model > span {
+    font-size: 10px;
+    display: block;
+    line-height: 1.5;
+    min-height: 30px;
+  }
+  .comparison-row {
+    grid-template-columns: 1fr 1fr;
+    font-size: 13px;
+    padding: 17px 0;
+    gap: 10px;
+  }
+  .comparison-row > span:first-child {
+    grid-column: 1/-1;
+    text-align: left;
+    font-size: 11px;
+    padding: 0 0 5px;
+    letter-spacing: 0.02em;
+  }
+  .comparison-row > span {
+    padding: 0 7px !important;
+    font-size: 13px !important;
+    line-height: 1.6;
+  }
+  .comparison-row:nth-child(1) > span:not(:first-child) {
+    font-size: 24px !important;
+  }
+  .comparison-actions {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .comparison-actions > span {
+    display: none;
+  }
+  .comparison-actions .button {
+    font-size: 11px;
+    gap: 8px;
+    padding: 13px 9px;
+  }
+  .comparison-actions svg {
+    width: 14px;
+    flex-shrink: 0;
+  }
+  .garage-heading {
+    align-items: start;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .garage-heading .button {
+    min-height: 46px;
+    font-size: 13px;
+  }
+  .heading-count {
+    width: 28px;
+    height: 28px;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+  .garage-empty {
+    padding-top: 25px;
+  }
+  .garage-empty > .outline-number {
+    font-size: 65vw;
+    top: 5px;
+  }
+  .garage-empty > img {
+    width: 115%;
+    max-width: none;
+    margin-left: -7.5%;
+    margin-bottom: -10px;
+  }
+  .garage-empty h2 {
+    font-size: 36px;
+  }
+  .garage-empty > p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .garage-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .garage-card-content {
+    padding: 25px;
+  }
+  .garage-card h2 {
+    font-size: 28px;
+  }
+  .toast {
+    bottom: 115px;
+    font-size: 12px;
+    padding: 14px 16px;
+    gap: 10px;
+  }
+  .config-topbar {
+    height: 49px;
+    padding: 0 5%;
+  }
+  .config-topbar > span {
+    display: none;
+  }
+  .config-viewer {
+    height: 390px;
+  }
+  .viewer-title {
+    padding: 25px 6% 0;
+  }
+  .viewer-title .eyebrow {
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
+  .viewer-title h1 {
+    font-size: 32px;
+  }
+  .viewer-tag {
+    position: absolute;
+    right: 6%;
+    top: 45px;
+    font-size: 9px;
+  }
+  .viewer-performance {
+    padding: 15px 6%;
+  }
+  .viewer-performance strong {
+    font-size: 22px;
+  }
+  .viewer-performance small {
+    font-size: 10px;
+  }
+  .viewer-performance span {
+    font-size: 9px;
+  }
+  .viewer-bottom {
+    padding: 0 5% 8px;
+    gap: 5px;
+  }
+  .viewer-caption {
+    font-size: 10px;
+  }
+  .angle-controls .icon-button {
+    width: 32px;
+    height: 35px;
+  }
+  .angle-controls > div > button {
+    width: 21px;
+    height: 35px;
+    padding: 6px;
+  }
+  .expand-button {
+    width: 35px;
+    height: 35px;
+  }
+  .viewer-watermark {
+    font-size: 66vw;
+    top: 0;
+  }
+  .car-stage > img {
+    width: 112%;
+    left: -6%;
+    height: 132%;
+    top: -12%;
+  }
+  .step-nav {
+    padding: 0 6%;
+    justify-content: space-between;
+    gap: 9px;
+  }
+  .step-nav button {
+    font-size: 11px;
+    min-height: 64px;
+    gap: 6px;
+  }
+  .step-nav button span {
+    font-size: 9px;
+  }
+  .config-options {
+    padding: 30px 6%;
+    min-height: 400px;
+  }
+  .options-heading .eyebrow {
+    font-size: 10px;
+    margin-bottom: 12px;
+  }
+  .options-heading h2 {
+    font-size: 32px;
+  }
+  .options-heading > p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .selected-paint {
+    margin: 26px 0;
+    padding-bottom: 23px;
+  }
+  .selected-paint strong {
+    font-size: 14px;
+  }
+  .selected-paint small {
+    font-size: 11px;
+  }
+  .choice-price {
+    font-size: 13px;
+  }
+  .paint-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px 20px;
+  }
+  .paint-swatch {
+    width: 51px;
+    height: 51px;
+  }
+  .paint-choice > span:last-child {
+    font-size: 12px;
+  }
+  .choice-list {
+    display: flex;
+    gap: 12px;
+    margin-top: 26px;
+  }
+  .equipment-choice {
+    padding: 18px;
+  }
+  .equipment-choice strong {
+    font-size: 14px;
+  }
+  .equipment-choice small {
+    font-size: 12px;
+  }
+  .equipment-choice .choice-price {
+    font-size: 12px;
+  }
+  .wheel-thumbnail {
+    width: 68px;
+    height: 85px;
+  }
+  .trim-swatch {
+    width: 42px;
+    height: 57px;
+  }
+  .interior-stage {
+    margin: 18px 6% 10px;
+    min-height: 0;
+  }
+  .interior-stage > img {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    object-position: center;
+  }
+  .packages {
+    grid-template-columns: 1fr;
+  }
+  .package {
+    padding: 18px;
+  }
+  .package strong {
+    font-size: 14px;
+  }
+  .package small {
+    font-size: 12px;
+  }
+  .config-bottom {
+    padding: 15px 6%;
+    min-height: 94px;
+    padding-bottom: max(15px, env(safe-area-inset-bottom));
+  }
+  .config-bottom > div > span {
+    font-size: 9px;
+  }
+  .config-bottom strong {
+    font-size: 25px;
+  }
+  .config-bottom small {
+    font-size: 9px;
+  }
+  .config-bottom .button {
+    font-size: 13px;
+    gap: 18px;
+    min-height: 49px;
+  }
+  .configurator {
+    padding-bottom: 100px;
+  }
+  .summary-list > button,
+  .summary-list > div {
+    font-size: 12px;
+  }
+  .summary-list > button > span:last-child {
+    font-size: 11px;
+  }
+  .summary-actions button {
+    font-size: 12px;
+  }
+  .summary-total {
+    font-size: 13px;
+  }
+  .summary-total strong {
+    font-size: 27px;
+  }
+  .save-build {
+    font-size: 14px;
+  }
+  .viewer-expanded .config-viewer {
+    min-height: 100svh;
+  }
+  .viewer-expanded .config-viewer .viewer-title {
+    padding-top: 50px;
+  }
+  .viewer-expanded .car-stage > img {
+    width: 125% !important;
+    left: -12.5% !important;
+  }
+  .viewer-expanded .viewer-watermark {
+    font-size: 75vw !important;
+  }
+  .viewer-expanded .viewer-bottom {
+    padding-bottom: 25px !important;
+  }
+}

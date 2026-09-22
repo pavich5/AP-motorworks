@@ -1,0 +1,51 @@
+export const models = [
+  {
+    id: "carrera",
+    name: "911 Carrera",
+    label: "The original expression.",
+    category: "Everyday icons",
+    power: 394,
+    time: "4.1",
+    speed: 294,
+    price: 136000,
+    image: "/images/carrera.webp",
+    engine: "3.0-litre twin-turbo flat-six",
+    drive: "Rear-wheel drive",
+    transmission: "8-speed Porsche Doppelkupplung",
+    description:
+      "The feeling that started it all. A timeless silhouette, a rear-mounted flat-six, and an everyday drive that feels anything but ordinary.",
+  },
+  {
+    id: "gts",
+    name: "911 Carrera GTS",
+    label: "More of everything you love.",
+    category: "Everyday icons",
+    power: 541,
+    time: "3.0",
+    speed: 312,
+    price: 175000,
+    image: "/images/slate-front.webp",
+    engine: "3.6-litre flat-six · T-Hybrid",
+    drive: "Rear-wheel drive",
+    transmission: "8-speed Porsche Doppelkupplung",
+    description:
+      "Tradition, accelerated. The Carrera GTS combines the unmistakable soul of the 911 with an innovative performance hybrid powertrain.",
+  },
+  {
+    id: "gt3",
+    name: "911 GT3",
+    label: "Born on the track.",
+    category: "Track inspired",
+    power: 510,
+    time: "3.4",
+    speed: 311,
+    price: 209000,
+    image: "/images/gt3.webp",
+    engine: "4.0-litre naturally aspirated flat-six",
+    drive: "Rear-wheel drive",
+    transmission: "7-speed Porsche Doppelkupplung",
+    description:
+      "Every detail serves the drive. A naturally aspirated flat-six, a motorsport-derived chassis, and a connection to the road that words cannot capture.",
+  },
+];
+export type CarModel = (typeof models)[number];

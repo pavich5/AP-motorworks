@@ -1,0 +1,188 @@
+/* Saved configurations */
+.garage-page {
+  padding-top: 75px;
+  min-height: 75vh;
+}
+.garage-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.heading-count {
+  display: inline-flex;
+  vertical-align: top;
+  margin: 10px 0 0 18px;
+  border: 1px solid #ffffff30;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  font:
+    13px "DM Sans",
+    sans-serif;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0;
+}
+.garage-empty {
+  max-width: 950px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding: 20px 0 60px;
+}
+.garage-empty > .outline-number {
+  top: 0;
+}
+.garage-empty > img {
+  position: relative;
+  width: 75%;
+  margin: 0 auto -30px;
+}
+.garage-empty h2 {
+  position: relative;
+  font-size: 42px;
+}
+.garage-empty > p {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 20px 0 28px;
+}
+.garage-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.garage-card {
+  background: linear-gradient(140deg, #25282a, #191c1e);
+  border: 1px solid var(--line);
+}
+.garage-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px 0;
+}
+.garage-card > img {
+  width: 100%;
+  margin: -20px 0 -40px;
+}
+.garage-card-content {
+  padding: 25px 30px 30px;
+}
+.garage-card h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+.garage-card-content > p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 12px;
+  line-height: 1.6;
+}
+.garage-card-content > p > span {
+  margin: 0 5px;
+}
+.garage-card-content > strong {
+  display: block;
+  font-size: 25px;
+  font-weight: 450;
+  margin-top: 25px;
+}
+.garage-card-content small {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 7px;
+}
+.garage-card-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  margin-top: 25px;
+  padding-top: 20px;
+}
+.garage-card-actions .button {
+  gap: 12px;
+  font-size: 13px;
+}
+.confirm-dialog {
+  background: #202224;
+  color: #f5f5f3;
+  padding: 32px;
+  border: 1px solid #ffffff30;
+  width: min(460px, 90vw);
+  max-height: 90svh;
+  box-shadow: 0 20px 100px #000a;
+}
+.confirm-dialog::backdrop {
+  background: #0009;
+  backdrop-filter: blur(7px);
+}
+.dialog-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.confirm-dialog h2 {
+  font-size: 31px;
+}
+.confirm-dialog p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 18px 0 30px;
+}
+.confirm-dialog .button-row {
+  justify-content: end;
+}
+.not-found {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+}
+.not-found h1 {
+  font-size: clamp(48px, 7vw, 90px);
+}
+.toast {
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%) !important;
+  z-index: 100;
+  background: #efefea;
+  color: #181a1b;
+  box-shadow: 0 10px 40px #0005;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 16px 20px;
+  max-width: calc(100% - 30px);
+  width: max-content;
+  font-size: 14px;
+}
+.toast > svg {
+  flex-shrink: 0;
+}
+.toast > a {
+  display: flex;
+  margin-left: 8px;
+}
+.storage-warning {
+  position: fixed;
+  z-index: 90;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #71392f;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px;
+}

@@ -1,0 +1,200 @@
+@media (max-width: 850px) {
+  .header {
+    padding: 0 5%;
+  }
+  .nav {
+    gap: 17px;
+  }
+  .nav a {
+    font-size: 11px;
+  }
+  .wordmark {
+    font-size: 19px;
+  }
+  .nav-cta {
+    padding: 8px;
+  }
+  .config-layout {
+    grid-template-columns: 1fr;
+  }
+  .config-viewer {
+    position: relative;
+    height: 560px;
+    min-height: 0;
+    top: auto;
+  }
+  .car-stage {
+    min-height: 0;
+  }
+  .car-stage > img {
+    width: 100%;
+    height: 125%;
+    left: 0;
+    top: -12.5%;
+  }
+  .viewer-title {
+    padding-top: 25px;
+  }
+  .viewer-title h1 {
+    font-size: 35px;
+  }
+  .viewer-title .eyebrow {
+    font-size: 10px;
+  }
+  .viewer-performance {
+    padding: 18px 5%;
+  }
+  .viewer-performance strong {
+    font-size: 22px;
+  }
+  .viewer-performance span {
+    margin-top: 5px;
+  }
+  .viewer-watermark {
+    font-size: 50vw;
+  }
+  .viewer-bottom {
+    padding-bottom: 15px;
+  }
+  .config-panel {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+  .config-options {
+    padding: 35px 6%;
+    min-height: 395px;
+  }
+  .config-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -8px 30px #0002;
+    padding: 17px 6%;
+    min-height: 98px;
+  }
+  .configurator {
+    padding-bottom: 100px;
+  }
+  .step-nav {
+    padding: 0 6%;
+    justify-content: start;
+    gap: 35px;
+    position: sticky;
+    top: 0;
+    background: #141618;
+    z-index: 5;
+  }
+  .step-nav button {
+    font-size: 12px;
+    min-height: 66px;
+    padding: 15px 0;
+  }
+  .step-nav button span {
+    font-size: 10px;
+  }
+  .paint-grid {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+  }
+  .paint-swatch {
+    width: 47px;
+    height: 47px;
+  }
+  .paint-choice > span:last-child {
+    font-size: 12px;
+  }
+  .selected-paint {
+    margin-top: 28px;
+  }
+  .options-heading h2 {
+    font-size: 33px;
+  }
+  .options-heading > p {
+    font-size: 14px;
+  }
+  .choice-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .equipment-choice {
+    padding: 18px 13px;
+  }
+  .equipment-choice strong {
+    font-size: 14px;
+  }
+  .equipment-choice small {
+    font-size: 12px;
+  }
+  .packages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .package strong {
+    font-size: 14px;
+  }
+  .package small {
+    font-size: 12px;
+  }
+  .config-options .fine-print {
+    font-size: 12px;
+  }
+  .summary-list > div,
+  .summary-list > button {
+    font-size: 14px;
+    padding: 17px 0;
+  }
+  .summary-list > button > span:last-child {
+    font-size: 13px;
+  }
+  .summary-actions button {
+    font-size: 13px;
+  }
+  .save-build {
+    max-width: none;
+  }
+  .summary-list {
+    margin-top: 25px;
+  }
+  .build-name {
+    font-size: 14px;
+  }
+  .config-bottom > div > span {
+    font-size: 10px;
+  }
+  .config-bottom small {
+    font-size: 10px;
+  }
+  .config-topbar > span {
+    font-size: 9px;
+  }
+  .option-note {
+    font-size: 12px;
+  }
+  .comparison-grid,
+  .comparison-row,
+  .comparison-actions {
+    grid-template-columns: 0.9fr 1.5fr 1.5fr;
+  }
+  .compare-model select {
+    font-size: 20px;
+  }
+  .compare-model {
+    padding: 15px 15px 22px;
+    margin-left: 10px;
+  }
+  .comparison-row > span {
+    padding: 20px 12px;
+    font-size: 13px;
+  }
+  .comparison-actions .button {
+    padding: 12px;
+    font-size: 12px;
+  }
+  .garage-card-content {
+    padding: 25px;
+  }
+  .garage-card h2 {
+    font-size: 26px;
+  }
+}

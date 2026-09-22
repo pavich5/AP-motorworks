@@ -1,0 +1,237 @@
+/* Model detail and comparison */
+.detail-intro {
+  padding-top: 40px;
+}
+.detail-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 65px;
+}
+.detail-title .eyebrow {
+  color: var(--muted);
+  margin-bottom: 17px;
+}
+.detail-title h1 {
+  font-size: clamp(46px, 7vw, 96px);
+  line-height: 1.15;
+}
+.detail-title p:last-child {
+  font-size: 18px;
+  color: var(--muted);
+  margin-top: 20px;
+}
+.detail-car {
+  position: relative;
+  max-width: 1100px;
+  margin: 10px auto -25px;
+}
+.detail-car > span {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  text-align: center;
+  font-size: clamp(200px, 37vw, 500px);
+  font-family: Manrope, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.1em;
+  color: #ffffff05;
+}
+.detail-car img {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.detail-specs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 40px 0;
+  text-align: center;
+}
+.detail-specs > div + div {
+  border-left: 1px solid var(--line);
+}
+.detail-specs strong {
+  font-size: 48px;
+  letter-spacing: -0.055em;
+  font-weight: 450;
+}
+.detail-specs small {
+  font-size: 14px;
+  color: var(--muted);
+  margin-left: 9px;
+  letter-spacing: 0;
+}
+.detail-specs p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 10px;
+}
+.detail-description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding-top: 75px;
+}
+.detail-description h2 {
+  font-size: 44px;
+}
+.detail-description p {
+  font-size: 17px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.detail-description dl {
+  margin: 35px 0;
+}
+.detail-description dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+}
+.detail-description dt {
+  color: var(--muted);
+}
+.detail-description dd {
+  margin: 0;
+  text-align: right;
+}
+.compare-page {
+  padding-top: 75px;
+  min-height: 90vh;
+  max-width: 1500px;
+  margin: auto;
+}
+.compare-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+}
+.toggle-label input {
+  position: absolute;
+  left: 0;
+  width: 36px;
+  height: 24px;
+  opacity: 0;
+  cursor: pointer;
+}
+.toggle-track {
+  width: 34px;
+  height: 20px;
+  border-radius: 20px;
+  background: #4b4e50;
+  transition: background 0.2s;
+  position: relative;
+  pointer-events: none;
+}
+.toggle-track:after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: white;
+  transition: transform 0.2s;
+}
+.toggle-label input:checked + .toggle-track {
+  background: var(--accent);
+}
+.toggle-label input:checked + .toggle-track:after {
+  transform: translateX(14px);
+}
+.toggle-label input:focus-visible + .toggle-track {
+  outline: 2px solid white;
+  outline-offset: 4px;
+}
+.comparison-grid,
+.comparison-row,
+.comparison-actions {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
+}
+.comparison-empty {
+  display: flex;
+  align-items: center;
+  color: #ffffff15;
+  font-size: 76px;
+  line-height: 0.93;
+  font-family: Manrope;
+  letter-spacing: -0.06em;
+}
+.compare-model {
+  background: #1b1d1f;
+  margin-left: 16px;
+  padding: 24px 25px 30px;
+  min-width: 0;
+  text-align: center;
+}
+.compare-model select {
+  width: 100%;
+  padding: 10px 25px 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: #eee;
+  font-size: 23px;
+  letter-spacing: -0.04em;
+  border-radius: 0;
+}
+.compare-model option {
+  background: #202224;
+  color: white;
+}
+.compare-model img {
+  width: 100%;
+  height: auto;
+}
+.compare-model > span {
+  font-size: 13px;
+  color: var(--muted);
+}
+.comparison-table {
+  margin-top: 25px;
+}
+.comparison-row {
+  border-bottom: 1px solid var(--line);
+  font-size: 15px;
+  line-height: 1.6;
+}
+.comparison-row > span {
+  padding: 25px;
+}
+.comparison-row > span:first-child {
+  padding-left: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+.comparison-row > span:not(:first-child) {
+  text-align: center;
+}
+.comparison-row:nth-child(1) > span:not(:first-child) {
+  font-size: 25px;
+}
+.comparison-actions {
+  margin-top: 30px;
+  gap: 16px;
+}
+.comparison-actions .button {
+  gap: 12px;
+  font-size: 13px;
+}

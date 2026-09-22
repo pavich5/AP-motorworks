@@ -1,0 +1,248 @@
+/* Final type scale and touch refinements */
+.model-category,
+.eyebrow,
+.options-heading .eyebrow,
+.model-specs span,
+.model-specs small,
+.model-card-bottom p,
+.micro,
+.hero-bottom .micro,
+.viewer-title .eyebrow,
+.viewer-performance span,
+.viewer-performance small,
+.viewer-caption,
+.step-nav button,
+.step-nav button > span,
+.selected-paint small,
+.paint-choice > span:last-child,
+.equipment-choice small,
+.package small,
+.option-note,
+.config-bottom > div > span,
+.config-bottom small,
+.config-options .fine-print,
+.summary-actions button,
+.footer-bottom p,
+.footer-bottom span,
+.hero-index,
+.scroll-hint,
+.heritage-strip > span {
+  font-size: 12px;
+}
+.nav a {
+  font-size: 14px;
+}
+.nav {
+  gap: 25px;
+}
+.model-card-bottom .text-link {
+  font-size: 14px;
+}
+.hero-content .eyebrow {
+  font-size: 12px;
+}
+.config-options .choice-price {
+  font-size: 13px;
+}
+.config-viewer .viewer-title .eyebrow {
+  font-size: 11px;
+}
+.config-bottom > div > span,
+.config-bottom small,
+.step-nav button > span {
+  font-size: 10px;
+}
+.viewer-performance span {
+  font-size: 11px;
+}
+.viewer-performance small {
+  font-size: 12px;
+}
+.footer-bottom p,
+.footer-bottom span {
+  font-size: 12px;
+}
+.filter-tabs button {
+  font-size: 14px;
+}
+.model-tagline {
+  font-size: 14px;
+}
+.options-heading > p {
+  font-size: 14px;
+}
+.selected-paint strong,
+.equipment-choice strong,
+.package strong {
+  font-size: 14px;
+}
+.summary-list > button,
+.summary-list > div {
+  font-size: 13px;
+}
+.summary-list > button > span:last-child {
+  font-size: 12px;
+}
+@media (min-width: 761px) and (max-width: 1050px) {
+  .nav {
+    gap: 18px;
+  }
+  .nav a {
+    font-size: 12px;
+  }
+  .nav-cta {
+    padding: 10px;
+  }
+  .wordmark {
+    font-size: 19px;
+  }
+  .model-card-bottom .text-link {
+    font-size: 13px;
+  }
+  .model-specs small {
+    font-size: 10px;
+  }
+  .model-specs span {
+    font-size: 11px;
+  }
+  .config-viewer .viewer-title .eyebrow {
+    font-size: 10px;
+  }
+}
+@media (max-width: 760px) {
+  .nav a {
+    font-size: 15px;
+  }
+  .hero h1 {
+    font-size: clamp(60px, 17vw, 80px);
+  }
+  .hero-slide-0 .hero-image {
+    width: 125%;
+    height: auto;
+    aspect-ratio: 2616/1472;
+    left: -12.5%;
+    bottom: 75px;
+    object-fit: contain;
+  }
+  .hero-slide-0 .hero-shade {
+    background:
+      linear-gradient(
+        0deg,
+        #101213 0%,
+        transparent 17%,
+        transparent 29%,
+        #212425 52%
+      ),
+      linear-gradient(90deg, #10121320, transparent);
+  }
+  .hero-content .eyebrow {
+    font-size: 10px;
+  }
+  .hero-description {
+    font-size: 16px;
+  }
+  .scroll-hint {
+    font-size: 10px;
+  }
+  .heritage-strip > span {
+    font-size: 9px;
+  }
+  .filter-tabs button {
+    font-size: 12px;
+  }
+  .section-heading .eyebrow {
+    font-size: 10px;
+  }
+  .story-copy .eyebrow,
+  .personal-copy .eyebrow {
+    font-size: 10px;
+  }
+  .viewer-title .eyebrow {
+    display: none;
+  }
+  .config-viewer {
+    height: 315px;
+    position: sticky;
+    top: -55px;
+    z-index: 4;
+  }
+  .viewer-title {
+    padding-top: 18px;
+  }
+  .viewer-title h1 {
+    font-size: 29px;
+  }
+  .viewer-tag {
+    top: 17px;
+    font-size: 9px;
+  }
+  .car-stage > img {
+    height: 125%;
+    top: -12%;
+    width: 110%;
+    left: -5%;
+  }
+  .viewer-bottom {
+    padding-bottom: 4px;
+  }
+  .viewer-performance {
+    padding: 12px 6%;
+  }
+  .viewer-performance strong {
+    font-size: 21px;
+  }
+  .viewer-performance span {
+    font-size: 10px;
+  }
+  .viewer-performance small {
+    font-size: 10px;
+  }
+  .viewer-caption {
+    font-size: 10px;
+  }
+  .step-nav {
+    top: 260px;
+    z-index: 5;
+  }
+  .step-nav button {
+    font-size: 11px;
+  }
+  .step-nav button > span {
+    font-size: 9px;
+  }
+  .config-options .fine-print {
+    font-size: 12px;
+  }
+  .config-bottom {
+    z-index: 10;
+  }
+  .config-bottom > div > span,
+  .config-bottom small {
+    font-size: 9px;
+  }
+  .viewer-expanded .config-viewer {
+    top: 0;
+    position: fixed;
+  }
+  .viewer-expanded .viewer-title {
+    padding-top: 35px;
+  }
+  .viewer-expanded .viewer-tag {
+    top: 34px;
+  }
+  .footer-bottom p,
+  .footer-bottom span {
+    font-size: 11px;
+  }
+}
+@media (max-width: 760px) {
+  .hero-slide-0 .hero-image {
+    mask-image: linear-gradient(
+      to bottom,
+      transparent,
+      #000 28%,
+      #000 85%,
+      transparent
+    );
+  }
+}

@@ -1,0 +1,24 @@
+@media (min-width: 1600px) {
+  .section,
+  .header,
+  .hero-content,
+  .hero-bottom,
+  .heritage-strip,
+  footer {
+    padding-left: max(5%, calc((100vw - 1500px) / 2));
+    padding-right: max(5%, calc((100vw - 1500px) / 2));
+  }
+  .hero-bottom {
+    left: 0;
+    right: 0;
+  }
+  .model-card {
+    padding: 26px 30px 30px;
+  }
+  .model-image-link {
+    margin: 0 -45px;
+  }
+  .config-layout {
+    grid-template-columns: minmax(0, 1.8fr) minmax(440px, 1fr);
+  }
+}

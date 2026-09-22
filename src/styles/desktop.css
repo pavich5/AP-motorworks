@@ -1,0 +1,63 @@
+@media (max-width: 1100px) {
+  .nav {
+    gap: 22px;
+  }
+  .nav a {
+    font-size: 12px;
+  }
+  .nav-cta {
+    padding: 10px 12px;
+  }
+  .model-card {
+    padding: 16px;
+  }
+  .model-card h3 {
+    font-size: 23px;
+  }
+  .model-specs strong {
+    font-size: 20px;
+  }
+  .model-card-bottom {
+    align-items: start;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .model-image-link {
+    margin: 0 -24px;
+  }
+  .config-layout {
+    grid-template-columns: minmax(0, 1.25fr) minmax(350px, 1fr);
+  }
+  .viewer-title {
+    padding-top: 35px;
+  }
+  .viewer-title h1 {
+    font-size: 34px;
+  }
+  .viewer-title .eyebrow {
+    font-size: 9px;
+  }
+  .viewer-caption {
+    font-size: 10px;
+  }
+  .config-options {
+    padding: 30px 6%;
+  }
+  .step-nav,
+  .config-bottom {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .hero-caption {
+    margin-left: 0;
+  }
+  .story-copy > div {
+    gap: 24px 45px;
+  }
+  .personal-copy h2 {
+    font-size: 40px;
+  }
+  .footer-bottom p {
+    font-size: 10px;
+  }
+}

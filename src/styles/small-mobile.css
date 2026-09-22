@@ -1,0 +1,44 @@
+@media (max-width: 370px) {
+  .hero h1 {
+    font-size: 68px;
+  }
+  .hero .eyebrow {
+    font-size: 9px;
+  }
+  .filter-tabs button {
+    padding: 10px 9px;
+    font-size: 11px;
+  }
+  .model-card {
+    padding: 16px 20px;
+  }
+  .hero .button {
+    min-height: 48px;
+  }
+  .viewer-title h1 {
+    font-size: 28px;
+  }
+  .viewer-tag {
+    font-size: 8px;
+  }
+  .viewer-caption {
+    max-width: 115px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .step-nav button {
+    font-size: 10px;
+  }
+  .config-bottom .button {
+    padding: 13px 15px;
+  }
+  .paint-grid {
+    gap: 24px 12px;
+  }
+  .footer-main p {
+    font-size: 13px;
+  }
+  .summary-actions button {
+    font-size: 11px;
+  }
+}
