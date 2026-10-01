@@ -305,13 +305,26 @@
   gap: 16px;
   margin-top: 0;
 }
-.sample-swatches span {
+.sample-swatches button {
   width: 20px;
   height: 20px;
+  padding: 0;
+  border: 0;
   border-radius: 50%;
   position: relative;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
-.sample-swatches span.selected:after {
+.sample-swatches button:hover {
+  transform: scale(1.12);
+}
+.sample-swatches button:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 5px;
+}
+.sample-swatches button.selected:after {
   content: "";
   position: absolute;
   inset: -5px;
