@@ -82,4 +82,4 @@ Car photography and product renders are © Porsche AG, obtained from official Po
 
 Browser smoke checks cover showroom filtering, configuration steps and pricing, saving and reload persistence, build-card export, dialogs, comparison filtering, and responsive layout.
 
-Static hosting must fall back to `index.html` for client-side routes. The Sites deployment uses the manifest in `.openai/hosting.json` and the `dist` output.
+Static hosting must fall back to `index.html` for client-side routes. The Sites deployment uses the manifest in `.openai/hosting.json` and the `dist` output
